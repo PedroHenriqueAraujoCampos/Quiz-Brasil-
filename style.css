@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #009739, #f7f7f7);
+    color: #0b3d0b;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    padding: 3rem;
+    background: linear-gradient(135deg, #009739, #ffdf00);
+    text-align: center;
+    color: #002776;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    background-color: rgba(255,255,255,0.9);
+
+    padding: 1.5rem;
+
+    border-radius: 12px;
+
+    border-left: 8px solid #009739;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #002776;
+    font-size: 1.4rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #009739;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="email"] {
+
+    width: 100%;
+    padding: 0.8rem;
+
+    border: 2px solid #ffdf00;
+
+    border-radius: 8px;
+
+    background-color: #ffffff;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #009739;
+    box-shadow: 0 0 8px rgba(0, 151, 57, 0.3);
+}
+
+input::placeholder {
+    color: #7a7a7a;
+}
+
+select {
+    cursor: pointer;
+
+    background-color: #009739;
+
+    color: white;
+
+    border-radius: 8px;
+
+    border: none;
+
+    padding: 0.6rem;
+
+    outline: none;
+}
+
+img {
+    width: 10rem;
+    border-radius: 10px;
+    border: 4px solid #ffdf00;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+th {
+    background-color: #009739;
+    color: white;
+    padding: 1rem;
+}
+
+td {
+    color: #002776;
+    text-align: center;
+    padding: 1rem;
+    background-color: #fdfdfd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f4fff4;
+}
+
+tfoot td {
+    background-color: #002776;
+    color: white;
+    font-weight: bold;
+}
+
+details{
+    background-color: #ffdf00;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+summary {
+    cursor: pointer;
+    color: #002776;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+ol {
+    margin-left: 1.5rem;
+}
+
+ol li {
+    padding: 0.3rem;
+    color: #0b3d0b;
+}
+
+fieldset {
+    border: 2px solid #009739;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+legend {
+    color: #002776;
+    padding: 0 0.5rem;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+
+    border: 2px solid #ffdf00;
+
+    border-radius: 8px;
+
+    background-color: white;
+
+    padding: 0.8rem;
+
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+
+    background: linear-gradient(135deg, #009739, #ffdf00);
+
+    color: #002776;
+
+    border: none;
+
+    border-radius: 8px;
+
+    padding: 1rem;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+}
+
+footer {
+    background-color: #002776;
+
+    text-align: center;
+
+    padding: 2rem;
+
+    margin-top: 2rem;
+}
+
+.paragrafo-footer {
+    color: white;
+    margin: 0.5rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffdf00;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

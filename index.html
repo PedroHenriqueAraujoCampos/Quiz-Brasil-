@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">  
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Um quiz interativo para testar seus conhecimentos sobre o Brasil"> 
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="Brasil.ico" type="image/x-icon">
+        <title>Quiz Brasil</title>
+    </head>
+    <body>
+        <header>
+            <h1>Quiz Interativo sobre o Brasil</h1>
+            <p>Teste seus conhecimentos sobre cultura, história, esportes e curiosidades do Brasil!</p>
+        </header>
+
+        <main>  
+            <section> 
+                <h2>Sobre esse quiz</h2>
+
+                <p><strong>Este quiz</strong> foi desenvolvido para testar seus conhecimentos sobre o <em>Brasil</em>, incluindo história, cultura, geografia, música e esportes.</p>
+
+                <p>Você encontrará diferentes tipos de perguntas, incluindo múltipla escolha, texto, data e seleção múltipla. <br>Desafie-se e veja quantos pontos consegue fazer!</p>
+
+                <p>Você verá temas relacionados a estados brasileiros, futebol, festas populares e acontecimentos históricos importantes do país.</p>
+            </section>
+
+            <section>
+                <h2>Pergunta 1: Qual é a capital do Brasil?</h2>
+
+                <form>
+                    <input type="radio" value="Rio de Janeiro" id="p1a" name="pergunta1">
+                    <label for="p1a">Rio de Janeiro</label><br>
+
+                    <input type="radio" value="Brasília" id="p1b" name="pergunta1"> 
+                    <label for="p1b">Brasília</label><br>
+
+                    <input type="radio" value="São Paulo" id="p1c" name="pergunta1">
+                    <label for="p1c">São Paulo</label><br>
+
+                    <input type="radio" value="Salvador" id="p1d" name="pergunta1">
+                    <label for="p1d">Salvador</label><br>
+                </form>
+            </section>
+
+
+            <section>
+                <h2>Pergunta 2: O Brasil está localizado em qual continente?</h2>
+
+                <form>
+                    <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta...">
+                </form>
+            </section>
+
+            <section>
+                <h2>Pergunta 3: Cite o nome de um prato típico brasileiro</h2>
+
+                <form>
+                    <input type="text" id="p3" name="pergunta3" placeholder="Digite sua resposta...">
+                </form>
+            </section>
+
+            <section>
+                <h2>Pergunta 4: Em que ano o Brasil conquistou sua primeira Copa do Mundo?</h2>
+
+                <form>
+                    <input type="date" id="p4" name="pergunta4">
+                </form>
+            </section>
+
+            <section>
+                <h2>Pergunta 5: Quais destas cidades ficam no Brasil?</h2>
+
+                <form>
+                    <input type="checkbox" id="p5a" name="pergunta5" value="Recife">
+                    <label for="p5a">Recife</label><br>
+
+                    <input type="checkbox" id="p5b" name="pergunta5" value="Lisboa">
+                    <label for="p5b">Lisboa</label><br>
+
+                    <input type="checkbox" name="pergunta5" id="p5c" value="Manaus">
+                    <label for="p5c">Manaus</label><br>
+
+                    <input type="checkbox" name="pergunta5" id="p5d" value="Paris">
+                    <label for="p5d">Paris</label> <br>
+                </form>
+            </section>
+
+            <section>
+                <h2>Pergunta 6: Faça upload de uma imagem da bandeira do Brasil</h2>
+
+                <form>
+                    <input type="file" name="pergunta6" id="p6">
+                </form>
+            </section>
+
+            <section>
+                <h2>Pergunta 7: Selecione o maior estado brasileiro em território:</h2>
+
+                <form>
+                   <select name="pergunta7" id="p7">
+                        <option value="Bahia">Bahia</option>
+                        <option value="Amazonas">Amazonas</option>
+                        <option value="Pará">Pará</option>
+                    </select> 
+                </form>            
+            </section>
+
+            <section>
+                <h2>Pergunta 8: Qual ponto turístico brasileiro é mostrado na imagem abaixo?</h2>
+
+                <figure>
+                    <img src="assets/cristo-redentor.png" alt="Ponto turístico brasileiro"><br> 
+                    <figcaption>Figura 1: ponto turístico brasileiro</figcaption>
+                </figure>
+
+                <input type="text" name="pergunta8" id="p8" placeholder="Digite sua resposta..."> 
+            </section>
+
+          
+            <section>
+                <h2>Tabela de pontuação</h2>
+
+                <table border="1">
+
+                    <thead>
+                        <tr>
+                            <th>Pontuação</th>
+                            <th>Avaliação</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>0-2</td>
+                            <td>Você ainda está começando a conhecer melhor o Brasil!</td>             
+                        </tr>
+
+                        <tr>
+                            <td>3-4</td>
+                            <td>Bom começo! Você já sabe algumas curiosidades brasileiras.</td>
+                        </tr>
+
+                        <tr>
+                            <td>5-7</td>
+                            <td>Muito bem! Seu conhecimento sobre o Brasil está ótimo.</td>
+                        </tr>
+
+                        <tr>
+                            <td>8</td>
+                            <td>Excelente! Você é praticamente um especialista em Brasil.</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Continue explorando a cultura e a história do Brasil!</td>
+                        </tr>
+                    </tfoot>
+
+                </table>
+            </section>
+
+            <section>
+                <h2>Verifique suas respostas</h2>  
+
+                <details>
+                    <summary>Clique aqui para ver as respostas do quiz</summary>
+
+                    <ol>
+                        <li>Brasília</li>
+                        <li>América do Sul</li>
+                        <li>Feijoada</li>
+                        <li>1958</li>
+                        <li>Recife e Manaus</li>
+                        <li>Arquivo deve conter uma imagem da bandeira do Brasil</li>
+                        <li>Amazonas</li>
+                        <li>Cristo Redentor</li>
+                    </ol>
+                </details>
+            </section>
+
+            <section>
+                <h2>Nos dê o seu Feedback</h2>
+
+                <form>
+                    <fieldset>
+                        <legend>Informações de contato</legend>
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome"><br>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email"><br>
+                        <label for="comentarios">Comentários:</label><br>
+                        <textarea name="comentarios" id="comentarios" rows="4" cols="50"  placeholder="Digite os seus comentários aqui"></textarea><br>
+                        <button onclick="alert('FEEDBACK ENVIADO')">Envie o Feedback</button>
+                    </fieldset>
+                </form>
+            </section>
+
+        </main>
+
+        <footer>
+            <p class="paragrafo-footer">&copy Quiz Brasil. Todos os direitos reservados</p>
+            <p class="paragrafo-footer">Explore mais curiosidades sobre a cultura brasileira!</p>
+        </footer>
+
+    </body>
+</html>
